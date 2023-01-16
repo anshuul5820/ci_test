@@ -2,7 +2,7 @@ name: Build and Deploy to GKE
 
 on:
   push:
-    branches: ["feature"]
+    branches: ["main"]
 
 jobs:
   setup-build-publish-deploy:
